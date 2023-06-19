@@ -1,0 +1,281 @@
+
+
+  /*main-section*/
+  .main_section{
+   display: inline-block;
+  }
+ .main_banner{
+    height: 650px;
+ }
+.main_button{
+ display:inline-block;
+ flex-direction: row;
+ justify-content: center;
+ padding: 12px 16px;
+ gap: 10px;
+ width: 176px;
+ height: 56px;
+ background: #1E50FF;
+ border-radius: 16px;
+ color: white;
+ font-family: 'poppins';
+ border: 0;
+ cursor: pointer;
+
+}
+.main-banner_text{
+   margin-top: 25px;
+   width: 640px;
+    display: inline-block;
+}
+.main_text{
+   display: inline-block;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.content{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ADB9C7;
+   width: 520px;    
+   line-height: 27px;
+   height: 118px;
+}
+.logo{
+    display:flex;
+    width: 100%;
+    align-items: center; 
+}   
+.Crypto{
+    display: inline;
+    
+}  
+ .Crypto img{
+    width: 200px;
+    padding: 20px;
+ }
+ 
+/*  /main section*/
+
+/*Card styl*/
+.cards{
+   width: 100%; 
+}
+
+ .card_nft{
+   position: absolute;
+   width: 384px;
+   height: 368px;    
+   background: #272D37;
+   border-radius: 16px;
+   cursor: pointer;
+ }
+ .card_nft:hover{
+   position: absolute;
+   width: 384px;
+   height: 368px;    
+   background: #272D37;
+   border-radius: 16px;
+   border: 1px solid rgba(255, 255, 255, 1);
+ }
+ .card_icon{
+   width: 80px;
+   height: 80px;
+   padding: 55px 148px 15px;
+ }
+.card_theme{
+   font-size: 24px;
+   line-height: 32px;
+   text-transform: capitalize;
+    color: #FFFFFF;
+   text-align: center;
+   font-family: 'poppins';
+}
+.card_p{
+ width: 306px;
+ height: 72px;
+ font-size: 14px;
+ line-height: 24px;
+ text-align: center;
+ color: #ADB9C7;
+ padding: 0px 40px 0px;
+ font-family: 'poppins';
+}
+.card_section{
+   display: flex ;
+   width: 820px;
+   height: 420px;
+   justify-content: space-between;
+}
+/*live auction*/
+
+.live_auctions{
+   width: 100%;
+   height: 700px;
+}
+.live_auction{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.live_auction-theme{
+   padding: 0;
+}
+.card_main{
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+/* featured artist*/
+.featured-artist_h{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.featured-artist_cards{
+   display: flex;
+   justify-content: space-between; 
+}
+.featured-artist_card{
+   width: 282px;
+   height: 391px;
+   background: #272D37;
+   border-radius: 16px;
+}
+.artist-card_image img{
+   width: 266px;
+   height: 225px;
+   border-radius: 28px;
+   padding: 8px;
+}
+.placeholder-img{
+   position: absolute;
+   left: 158px;
+   top: 2822px;
+}
+.placeholder-img-1{
+   position: absolute;
+   left: 465px;
+   top: 2822px;
+}
+.placeholder-img-2{
+ position: absolute;
+ top: 2822px;
+ left: 775px;
+}
+.placeholder-img-3{
+   position: absolute;
+   top: 2822px;
+   left: 1088px;
+}
+.artist-card_th{
+   color: white;
+   font-size: 24px;
+   font-family: 'poppins';
+   display: flex;
+   justify-content: center;
+   padding: 65px 0 0;
+   margin: 0;
+}
+.eth{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 72px;
+   margin: -15px 0px 0px 92px;
+}
+.eth-num{
+ color: white;
+ display: inline-block;
+ font-size: 18px;
+}
+/* /featured artist*/
+
+/*hot NFTs*/
+.hot-nft_h{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hot-nft_button{
+   width: 111px;
+   height: 56px;
+   border: 1px solid #1E50FF;
+   border-radius: 8px;  
+   background-color:rgba(30, 80, 255, 0.1);
+   color: white;
+   font-size: 16px;
+   font-family: 'poppins';
+}  
+.hot-nft_button:hover{
+   width: 111px;
+   height: 56px;
+   border: 1px solid #1E50FF;
+   border-radius: 8px;  
+   background: #1E50FF;
+   box-shadow: 10px 10px 42px rgba(30, 80, 255, 0.5);
+   color: white;
+   font-size: 16px;
+   
+}  
+.hot-nft_buttons{
+   width: 785px;
+   display: flex;
+   justify-content: space-between;
+}
+
+/*cta card*/
+.cta-card{
+   width: 1200px;
+   height: 352px;
+   background: radial-gradient(151.95% 463.58% at -44.29% -62.34%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+   border-radius: 16px;
+   border: 1px solid #1E50FF;
+}
+.cta-theme{
+   text-align: center;
+   font-family: 'poppins';
+   font-style: normal;
+   font-weight: 750;
+   font-size: 48px;
+   line-height: 64px;
+   color: white;
+   padding-top: 48px;
+   margin: 0;
+}
+.cta-content{
+   font-weight: 400;
+   width: 620px; 
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 285px;
+  font-family: 'poppins';
+}
+.cta-button{
+width: 239px;
+height: 64px;
+background: #1E50FF;
+border-radius: 16px;
+border: 0;
+color: #FFFFFF;
+cursor: pointer;
+font-family: 'poppins';
+}
+.cta-b{
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+}
+/*/cta card*/
+

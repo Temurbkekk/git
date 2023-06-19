@@ -1,0 +1,473 @@
+body{
+    background-color: #02050E;
+}
+.container{
+    margin:10px 60px 50px 60px;
+}
+ .theme{
+    font-family: 'poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 48px;
+    line-height: 64px;
+    color: white;  
+    padding: 35px 0;
+  }
+ /*navbar*/
+ .brand{
+    display: inline-block;
+    vertical-align: middle;
+
+ }
+ .brand_text-item a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+ }
+ .brand img{
+    width: 140px;
+    height: 40px;
+ }
+.navbar{
+    display: flex;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+}  
+.navbar_item{
+    display: inline-block;
+    padding: 10px;
+
+} 
+
+
+.navbar_item a{
+    color:  Gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 1000; 
+    font-family: 'poppins';
+    
+     
+}
+.navbar_item a:hover{
+    color: white;
+}
+.button{
+   background-color:#02050E ;
+   display: inline-block;
+   justify-content: center;
+   color: white;
+   width: 175px;
+   height: 56px;
+   font-family: 'poppins';
+   border: 1px solid #1E50FF;
+   border-radius: 16px;
+   cursor: pointer;
+  }
+ /*/navbaar*/
+
+ /*search*/
+ .search{
+   display: flex;
+   justify-content: center;
+ }
+.search-bar{ 
+   width: 799px;
+   height: 72px;
+   left: 321px;
+   top: 336px;
+   border: 1px solid rgba(255, 255, 255, 1);
+   border-radius: 16px;
+   background: #272D37;
+   font-size: 24px;
+   padding: 0px 15px;
+   display: flex;
+   align-items: center;
+    }
+    .search-bar input{
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        font-size: 20px;
+        color: darkgray;
+    } 
+    .search-bar button{
+        border: 0;
+      background: #272D37; 
+    }
+    .search-bar button img{
+        border: 0;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background:#272D37 ;
+    }
+/*catigories*/
+
+.hot-nft_h{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hot-nft_button{
+   width: 111px;
+   height: 56px;
+   border: 1px solid #1E50FF;
+   border-radius: 8px;  
+   background-color:rgba(30, 80, 255, 0.1);
+   color: white;
+   font-family: 'poppins';
+   font-size: 16px;
+   cursor: pointer;
+}  
+.hot-nft_button:hover{
+   width: 111px;
+   height: 56px;
+   border: 1px solid #1E50FF;
+   border-radius: 8px;  
+   background: #1E50FF;
+   box-shadow: 10px 10px 42px rgba(30, 80, 255, 0.5);
+   color: white;
+   font-size: 16px;
+   
+}  
+.hot-nft_buttons{
+   width: 785px;
+   display: flex;
+   justify-content: space-between;
+}
+
+/* .select{
+ width: 175px;
+ height: 56px;
+ background: rgba(30, 80, 255, 0.1);
+ border: 1px solid #1E50FF;
+ border-radius: 8px;
+ color: white;
+ cursor: pointer;
+
+} */
+select{
+   width: 175px;
+   height: 56px;
+   background: rgba(30, 80, 255, 0.1);
+   border: 1px solid #1E50FF;
+   border-radius: 8px;
+   color: white;
+   cursor: pointer; 
+ position: relative;
+}
+option{
+   position: absolute;
+   left: 1000px;
+}
+
+.drop{
+    height: 56px;
+}
+/*cards*/
+.hot-nft_cards{
+    display: flex;
+    width: 1208px;
+    height: 1105px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ /*card*/
+.card{
+    background-color: #272D37;
+    width: 380px;
+    height: 525px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.card_main-banner{
+   left: 725px;
+   top: 170px;
+}
+.card img{
+ width: 352px;
+ height: 352px;
+ margin-top: 16px;
+ margin-left: 15px;
+ display: inline-block;
+ border-radius: 28px;
+ 
+}
+.card_body{
+    color: #ffff;
+    padding-left: 14px;
+    display: inline-block;  
+}
+.card_content{ 
+    font-family: 'poppins';
+    font-size: 21px;
+    margin-top: 20px;
+    display: inline-block;
+    height: 0;
+}
+.button_bsc{
+   display: inline-block;
+   width: 59px;
+   height: 29px;
+   font-family: 'Roboto';
+   background-color: #1E50FF;
+   border-radius: 8px;
+   border-color:#1E50FF;
+   border:0;
+   color: white;
+   margin-left: 26px;
+   cursor: pointer;
+}
+.user{
+    display: inline-block;
+  }
+ .user img{
+    border-radius: 20px;
+    width: 56px;
+    height: 56px;
+    margin: 16px 15px -11px 14px;      
+
+ }
+ .card-footer_text{
+   display: inline-block;
+   width: 268px;
+   line-height: 28px;
+   padding-left: 8px;
+ }
+ .text-1{
+   display: flex;
+   justify-content: space-between;
+ }
+ .text-2{
+   display: flex;
+   justify-content: space-between;
+ }
+ .user_text{
+    color: #8A8AA0;
+    display: inline-block;
+    margin: 0;
+    font-family: 'poppins';
+ }
+ .user_name{
+    color: white; 
+    font-family: 'Roboto';
+    margin: 0;
+ }
+ .discover-card{
+    height: 2200px;
+ }
+ .hot-nft_b{
+    padding: 25px 0px 140px 0px;
+    display: flex;
+    justify-content: center;
+ }
+ .hot-nft_b2{
+    padding: 35px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+ }
+
+ /*footer*/
+ .footer-nft{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 240px;
+  }
+  .footer-p img{
+    width: 120px;
+    height: 30px;
+  }
+  .footer-t{
+   margin-top: 30px;
+   width: 393px;
+   font-size: 16px;
+   line-height: 32px;
+   color: #ADB9C7;
+   font-family: 'poppins';
+  }
+  .resources-t{
+    font-family: 'poppins';
+    width: 129px;
+    height: 32px;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .resource a{
+    color: #ADB9C7;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 15px;
+   font-family: 'poppins';
+   text-decoration: none;
+  }
+  .contact-p{
+    margin-top: 30px;
+    width: 179px;
+    line-height: 32px;
+    color: #ADB9C7;
+    font-family: 'poppins';
+  }
+  .icon-contact{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 110px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .resource-num{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 15px;
+   font-family: 'poppins';
+  }
+  /*live auction*/
+
+.live_auctions{
+    width: 100%;
+    height: 700px;
+ }
+ .live_auction{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .live_auction-theme{
+    padding: 0;
+ }
+ .card_main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ .live_auctions1{
+    width: 100%;
+    height: 560px
+ }
+ /*Description*/
+.description-image img{
+   width: 585px; 
+   height: 508px;
+   border-radius: 50px;
+  }
+  .description{
+   display: flex;
+   justify-content: space-between;
+  }
+  .description-theme{
+   font-family: 'poppins';
+   font-size: 48px;
+   line-height: 64px;
+   color: white;
+   margin: 0;
+  }
+  .description-p{
+   font-size: 20px;
+   width: 575px;
+  height: 64px;
+  line-height: 32px;
+  color: #ADB9C7;
+  }
+  .description_text{
+   display: inline-block;
+   width: 575px;
+   line-height: 28px;
+  }
+  .description-user{
+   width: 575px;
+  height: 100px;
+  margin: 54px 0;
+  background: #272D37;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .user-1{
+   display: flex;
+  }
+  .user-1-img img{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   border-radius: 16px;
+  }
+  .user-1{
+   display: flex;
+   width: 190px;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px;
+  }
+  .user-2{
+   display: flex;
+   width: 190px;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px;
+  }
+  .user-2-img img{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   border-radius: 16px;
+  }
+  .user-n{
+   display: inline-block;
+  }
+  .description-button{
+   display: flex;
+   margin: 67px 0 0;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+  }
+  .button-1{
+   width: 275px;
+   height: 64px;
+   background: rgba(30, 80, 255, 0.15);
+   border: 1.5px solid #1E50FF;
+   border-radius: 8px;
+   color: #ffffff;
+   cursor: pointer;
+   font-family: 'poppins';
+  }
+  .button-2{
+   width: 279px;
+   height: 67px;
+   background: #1E50FF;
+   border-radius: 8px;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-family: 'poppins';
+  }
+  .card-image_section button:hover{
+   opacity: 1;
+  }
+  .card-image_section button{
+   border: 0;
+    color: white;
+    width: 192px;
+    height: 64px;
+    background: #1E50FF;
+    box-shadow: 8px 8px 18px rgb(30 80 255 / 25%);
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 186px 0px 0px 103px;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+  }
